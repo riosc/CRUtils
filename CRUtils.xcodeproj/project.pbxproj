@@ -107,6 +107,7 @@
 		4F1E1F40185E020E00AAF3A0 /* CRUtils */ = {
 			isa = PBXGroup;
 			children = (
+				4F1E1F69185E06A700AAF3A0 /* Utils */,
 				4F1E1F49185E020E00AAF3A0 /* CRAppDelegate.h */,
 				4F1E1F4A185E020E00AAF3A0 /* CRAppDelegate.m */,
 				4F1E1F4C185E020E00AAF3A0 /* Images.xcassets */,
@@ -142,6 +143,101 @@
 				4F1E1F5C185E020E00AAF3A0 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4F1E1F69185E06A700AAF3A0 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				4F1E1F6A185E06A700AAF3A0 /* Categories */,
+				4F1E1F6B185E06A700AAF3A0 /* Classes */,
+				4F1E1F70185E06A700AAF3A0 /* Headers */,
+				4F1E1F71185E06A700AAF3A0 /* Helpers */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		4F1E1F6A185E06A700AAF3A0 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		4F1E1F6B185E06A700AAF3A0 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4F1E1F6C185E06A700AAF3A0 /* UIViewControllers */,
+				4F1E1F6D185E06A700AAF3A0 /* UIViews */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		4F1E1F6C185E06A700AAF3A0 /* UIViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UIViewControllers;
+			sourceTree = "<group>";
+		};
+		4F1E1F6D185E06A700AAF3A0 /* UIViews */ = {
+			isa = PBXGroup;
+			children = (
+				4F1E1F6E185E06A700AAF3A0 /* UIControl */,
+				4F1E1F6F185E06A700AAF3A0 /* UIScrollView */,
+			);
+			path = UIViews;
+			sourceTree = "<group>";
+		};
+		4F1E1F6E185E06A700AAF3A0 /* UIControl */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UIControl;
+			sourceTree = "<group>";
+		};
+		4F1E1F6F185E06A700AAF3A0 /* UIScrollView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UIScrollView;
+			sourceTree = "<group>";
+		};
+		4F1E1F70185E06A700AAF3A0 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		4F1E1F71185E06A700AAF3A0 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				4F1E1F76185E089800AAF3A0 /* Constants */,
+				4F1E1F77185E089800AAF3A0 /* Macros */,
+				4F1E1F72185E06A700AAF3A0 /* Managers */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		4F1E1F72185E06A700AAF3A0 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		4F1E1F76185E089800AAF3A0 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		4F1E1F77185E089800AAF3A0 /* Macros */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Macros;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
