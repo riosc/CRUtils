@@ -19,6 +19,11 @@
 		4F1E1F56185E020E00AAF3A0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F1E1F3E185E020E00AAF3A0 /* UIKit.framework */; };
 		4F1E1F5E185E020E00AAF3A0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4F1E1F5C185E020E00AAF3A0 /* InfoPlist.strings */; };
 		4F1E1F60185E020E00AAF3A0 /* CRUtilsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F1E1F5F185E020E00AAF3A0 /* CRUtilsTests.m */; };
+		4F1E1F7F185E0C7B00AAF3A0 /* CRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F1E1F7E185E0C7B00AAF3A0 /* CRViewController.m */; };
+		4F1E1F82185E0CA200AAF3A0 /* CRControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F1E1F81185E0CA200AAF3A0 /* CRControl.m */; };
+		4F1E1F85185E0CBA00AAF3A0 /* CRScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F1E1F84185E0CBA00AAF3A0 /* CRScrollView.m */; };
+		4F1E1F8D185E15C100AAF3A0 /* NSObject+CRCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F1E1F8C185E15C100AAF3A0 /* NSObject+CRCategory.m */; };
+		4F1E1F90185E160A00AAF3A0 /* CRManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F1E1F8F185E160A00AAF3A0 /* CRManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +53,19 @@
 		4F1E1F5B185E020E00AAF3A0 /* CRUtilsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CRUtilsTests-Info.plist"; sourceTree = "<group>"; };
 		4F1E1F5D185E020E00AAF3A0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4F1E1F5F185E020E00AAF3A0 /* CRUtilsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CRUtilsTests.m; sourceTree = "<group>"; };
+		4F1E1F78185E0B0500AAF3A0 /* CRConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CRConstants.h; sourceTree = "<group>"; };
+		4F1E1F7D185E0C7B00AAF3A0 /* CRViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRViewController.h; sourceTree = "<group>"; };
+		4F1E1F7E185E0C7B00AAF3A0 /* CRViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRViewController.m; sourceTree = "<group>"; };
+		4F1E1F80185E0CA200AAF3A0 /* CRControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRControl.h; sourceTree = "<group>"; };
+		4F1E1F81185E0CA200AAF3A0 /* CRControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRControl.m; sourceTree = "<group>"; };
+		4F1E1F83185E0CBA00AAF3A0 /* CRScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRScrollView.h; sourceTree = "<group>"; };
+		4F1E1F84185E0CBA00AAF3A0 /* CRScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRScrollView.m; sourceTree = "<group>"; };
+		4F1E1F86185E0D0500AAF3A0 /* CRMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CRMacros.h; sourceTree = "<group>"; };
+		4F1E1F8A185E0D6E00AAF3A0 /* CRHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CRHeader.h; sourceTree = "<group>"; };
+		4F1E1F8B185E15C100AAF3A0 /* NSObject+CRCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+CRCategory.h"; sourceTree = "<group>"; };
+		4F1E1F8C185E15C100AAF3A0 /* NSObject+CRCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+CRCategory.m"; sourceTree = "<group>"; };
+		4F1E1F8E185E160A00AAF3A0 /* CRManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRManager.h; sourceTree = "<group>"; };
+		4F1E1F8F185E160A00AAF3A0 /* CRManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,6 +177,8 @@
 		4F1E1F6A185E06A700AAF3A0 /* Categories */ = {
 			isa = PBXGroup;
 			children = (
+				4F1E1F8B185E15C100AAF3A0 /* NSObject+CRCategory.h */,
+				4F1E1F8C185E15C100AAF3A0 /* NSObject+CRCategory.m */,
 			);
 			path = Categories;
 			sourceTree = "<group>";
@@ -175,6 +195,8 @@
 		4F1E1F6C185E06A700AAF3A0 /* UIViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				4F1E1F7D185E0C7B00AAF3A0 /* CRViewController.h */,
+				4F1E1F7E185E0C7B00AAF3A0 /* CRViewController.m */,
 			);
 			path = UIViewControllers;
 			sourceTree = "<group>";
@@ -191,6 +213,8 @@
 		4F1E1F6E185E06A700AAF3A0 /* UIControl */ = {
 			isa = PBXGroup;
 			children = (
+				4F1E1F80185E0CA200AAF3A0 /* CRControl.h */,
+				4F1E1F81185E0CA200AAF3A0 /* CRControl.m */,
 			);
 			path = UIControl;
 			sourceTree = "<group>";
@@ -198,6 +222,8 @@
 		4F1E1F6F185E06A700AAF3A0 /* UIScrollView */ = {
 			isa = PBXGroup;
 			children = (
+				4F1E1F83185E0CBA00AAF3A0 /* CRScrollView.h */,
+				4F1E1F84185E0CBA00AAF3A0 /* CRScrollView.m */,
 			);
 			path = UIScrollView;
 			sourceTree = "<group>";
@@ -205,6 +231,7 @@
 		4F1E1F70185E06A700AAF3A0 /* Headers */ = {
 			isa = PBXGroup;
 			children = (
+				4F1E1F8A185E0D6E00AAF3A0 /* CRHeader.h */,
 			);
 			path = Headers;
 			sourceTree = "<group>";
@@ -222,6 +249,8 @@
 		4F1E1F72185E06A700AAF3A0 /* Managers */ = {
 			isa = PBXGroup;
 			children = (
+				4F1E1F8E185E160A00AAF3A0 /* CRManager.h */,
+				4F1E1F8F185E160A00AAF3A0 /* CRManager.m */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -229,6 +258,7 @@
 		4F1E1F76185E089800AAF3A0 /* Constants */ = {
 			isa = PBXGroup;
 			children = (
+				4F1E1F78185E0B0500AAF3A0 /* CRConstants.h */,
 			);
 			path = Constants;
 			sourceTree = "<group>";
@@ -236,6 +266,7 @@
 		4F1E1F77185E089800AAF3A0 /* Macros */ = {
 			isa = PBXGroup;
 			children = (
+				4F1E1F86185E0D0500AAF3A0 /* CRMacros.h */,
 			);
 			path = Macros;
 			sourceTree = "<group>";
@@ -336,8 +367,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F1E1F82185E0CA200AAF3A0 /* CRControl.m in Sources */,
 				4F1E1F47185E020E00AAF3A0 /* main.m in Sources */,
 				4F1E1F4B185E020E00AAF3A0 /* CRAppDelegate.m in Sources */,
+				4F1E1F85185E0CBA00AAF3A0 /* CRScrollView.m in Sources */,
+				4F1E1F8D185E15C100AAF3A0 /* NSObject+CRCategory.m in Sources */,
+				4F1E1F90185E160A00AAF3A0 /* CRManager.m in Sources */,
+				4F1E1F7F185E0C7B00AAF3A0 /* CRViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
